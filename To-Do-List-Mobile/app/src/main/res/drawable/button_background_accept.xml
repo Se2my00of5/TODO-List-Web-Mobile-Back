@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Состояние нажатия -->
+    <item android:state_pressed="true">
+        <color android:color="@color/light_green" /> <!-- Полупрозрачный черный -->
+    </item>
+    <!-- Обычное состояние -->
+    <item>
+        <color android:color="@color/green" />
+    </item>
+</selector>
